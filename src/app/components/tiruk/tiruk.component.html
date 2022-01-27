@@ -1,0 +1,16 @@
+<div class="container pt-5">
+    <form>
+        <label for="num">enter number</label><br><br>
+        <input type="number" min=1 max=1330 id="num"><br><br><br>
+        <input type="button" value="submit" (click)=submit()>
+    </form>
+</div>
+
+
+<div *ngIf=enablediv>
+    <p>{{data.line1}}</p>
+    <p>{{data.line2}}</p>
+
+</div>
+
+<p>{{errormsg}}</p>

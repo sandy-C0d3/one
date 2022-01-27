@@ -1,0 +1,20 @@
+.example-card {
+    height: 250px;
+    width: 400px;
+    max-width: 500px;
+    margin-bottom: 8px;
+  }
+
+mat-list mat-list-item{
+    height: auto;
+    padding: 25px;
+}
+
+button{
+  padding:25px
+}
+
+#lol{
+height: 100px;
+  width:500px;
+}
